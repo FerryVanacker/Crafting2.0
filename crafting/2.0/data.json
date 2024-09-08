@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Lockpick",
+      "materials": [
+        {"name": "Metaalschroot", "quantity": 3},
+        {"name": "Plastic", "quantity": 2},
+        {"name": "Ijzer", "quantity": 2}
+      ]
+    },
+    {
+      "name": "Pickhoweel",
+      "materials": [
+        {"name": "Houten plank", "quantity": 2},
+        {"name": "Ijzer", "quantity": 5}
+      ]
+    },
+    {
+        "name": "Reparatieset",
+        "materials": [
+          {"name": "Metaalschroot", "quantity": 10},
+          {"name": "Ijzer", "quantity": 10},
+          {"name": "Staal", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Houten Bak",
+        "materials": [
+          {"name": "Metaalschroot", "quantity": 10},
+          {"name": "Ijzer", "quantity": 10},
+          {"name": "Staal", "quantity": 10}
+        ]
+      }
+  ]

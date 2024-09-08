@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text */
+    padding: 0; /* Remove padding to avoid extra spacing */
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Ensure full viewport height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.results-container {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.results {
+    flex-basis: calc(33% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.results span{
+    margin-right: 10px;
+}
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #555;
+    border-radius: 0.5rem;
+    background-color: #333;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    color: #ccc; /* Text color */
+  }
+  
+  .custom-select option {
+    padding: 0.5rem 1rem;
+    background-color: #2a2a2a;
+    color: #ffffff;
+  }
+  
+.crafting-calculator {
+    background-color: #2a2a2a; /* Darker background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    transition: opacity 0.5s ease; /* Add transition for opacity */
+    max-width: 400px; /* Limit max width to prevent stretching */
+    width: 100%; /* Ensure it takes full width of container */
+    text-align: center; /* Center text inside the box */
+}
+
+.crafting-calculator h1 {
+    color: #fff; /* White text */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.crafting-calculator label {
+    color: #ccc; /* Light gray text */
+    display: block;
+    margin-bottom: 10px;
+}
+
+.crafting-calculator input[type="text"],
+.crafting-calculator input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #333; /* Dark border */
+    background-color: #444; /* Dark background for input */
+    color: #fff; /* White text */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.crafting-calculator button {
+    background-color: #4CAF50; /* Green button */
+    color: #fff; /* White text */
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+    transition: background-color 0.3s; /* Smooth transition */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.crafting-calculator button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.crafting-calculator .results {
+    margin-top: 20px;
+}
+
+.crafting-calculator .results span {
+    display: inline-block;
+    margin-right: 10px; /* Adjust margin between spans */
+}
+
+.crafting-calculator .results p {
+    margin-bottom: 5px;
+}
+
