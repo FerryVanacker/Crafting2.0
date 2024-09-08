@@ -1,0 +1,260 @@
+[
+    {
+      "name": "Lockpick",
+      "materials": [
+        {"name": "Metaalschroot", "quantity": 3},
+        {"name": "Plastic", "quantity": 2},
+        {"name": "Ijzer", "quantity": 2}
+      ]
+    },
+    {
+      "name": "Pickhoweel",
+      "materials": [
+        {"name": "Houten plank", "quantity": 2},
+        {"name": "Ijzer", "quantity": 5}
+      ]
+    },
+    {
+        "name": "Reparatieset",
+        "materials": [
+          {"name": "Metaalschroot", "quantity": 10},
+          {"name": "Ijzer", "quantity": 10},
+          {"name": "Staal", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Houten Bak",
+        "materials": [
+          {"name": "Metaalschroot", "quantity": 10},
+          {"name": "Ijzer", "quantity": 10},
+          {"name": "Staal", "quantity": 10}
+        ]
+      },
+      {
+        "name": "Elektronische kit",
+        "materials": [
+          {"name": "Plastic", "quantity": 2},
+          {"name": "Koperdraad", "quantity": 3},
+          {"name": "Kabels", "quantity": 3},
+          {"name": "Elektronische schroot", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Geavanceerd Lockpick",
+        "materials": [
+          {"name": "MetaalSchroot", "quantity": 4},
+          {"name": "Plastic", "quantity": 6},
+          {"name": "Ijzer", "quantity": 2},
+          {"name": "Lockpick", "quantity": 2}
+        ]
+      },
+      {
+        "name": "Radio scanner",
+        "materials": [
+          {"name": "Plastic", "quantity": 6},
+          {"name": "Kabels", "quantity": 6},
+          {"name": "Elektronische schroot", "quantity": 1},
+          {"name": "Radio", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Gieter",
+        "materials": [
+          {"name": "Plastic", "quantity": 30},
+          {"name": "Leeg flesje", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Plastic bootje",
+        "materials": [
+          {"name": "Plastic", "quantity": 20},
+          {"name": "Leeg flesje", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Glazen kerstbal",
+        "materials": [
+          {"name": "Lege fles Glas", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Metaal Detector",
+        "materials": [
+          {"name": "Plastic", "quantity": 15},
+          {"name": "Koperdraad", "quantity": 15},
+          {"name": "Elektronische schroot", "quantity": 10},
+          {"name": "Printplaat", "quantity": 1},
+          {"name": "Koper", "quantity": 15}
+        ]
+      },
+      {
+        "name": "Grijze USB",
+        "materials": [
+          {"name": "Plastic", "quantity": 3},
+          {"name": "Elektronische schroot", "quantity": 1},
+          {"name": "Printplaat", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Gereedschapset",
+        "materials": [
+          {"name": "Plastic", "quantity": 5},
+          {"name": "Staal", "quantity": 3},
+          {"name": "Geavanceerd Lockpick", "quantity": 2}
+        ]
+      },
+      {
+        "name": "Slakken Fossiel",
+        "materials": [
+          {"name": "Stukje fossiel", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Leeg Zakje",
+        "materials": [
+          {"name": "Plastic pulp", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Versteende Slak",
+        "materials": [
+          {"name": "Stukje Fossiel", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Trilobiet fossiel",
+        "materials": [
+          {"name": "Stukje Fossiel", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Tas",
+        "materials": [
+          {"name": "Stof", "quantity": 15},
+          {"name": "Rubber", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Vpn",
+        "materials": [
+          {"name": "Printplaat", "quantity": 1},
+          {"name": "Koper", "quantity": 5},
+          {"name": "USB", "quantity": 2}
+        ]
+      },
+      {
+        "name": "GPS verwijderaar",
+        "materials": [
+          {"name": "Plastic", "quantity": 10},
+          {"name": "Koperdraad", "quantity": 15},
+          {"name": "Elektronische schroot", "quantity": 10},
+          {"name": "Koper", "quantity": 5},
+          {"name": "Antenne", "quantity": 2}
+        ]
+      },
+      {
+        "name": "Kogelwerend Vest ",
+        "materials": [
+          {"name": "Stof", "quantity": 10},
+          {"name": "Rubber", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Mijn Laser",
+        "materials": [
+          {"name": "Plastic", "quantity": 10},
+          {"name": "Elektronische schroot", "quantity": 15},
+          {"name": "Mijn Boor", "quantity": 1},
+          {"name": "Elektronische schroot", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Zware Boor",
+        "materials": [
+          {"name": "Plastic", "quantity": 10},
+          {"name": "Kabels", "quantity": 15},
+          {"name": "Mijn Boor", "quantity": 1},
+          {"name": "Elektronische kit", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Hacking device",
+        "materials": [
+          {"name": "MetaalSchroot", "quantity": 10},
+          {"name": "Elektronische schroot", "quantity": 10},
+          {"name": "Printplaat", "quantity": 1},
+          {"name": "Koper", "quantity": 5},
+          {"name": "Antenne", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Pijpbom",
+        "materials": [
+          {"name": "Plastic", "quantity": 5},
+          {"name": "Ijzer", "quantity": 10},
+          {"name": "Aluminium Poeder", "quantity": 2},
+          {"name": "Pijpbom Huls", "quantity": 1},
+          {"name": "Ijzer Poeder", "quantity": 2}
+        ]
+      },
+      {
+        "name": "Mal voor Clip",
+        "materials": [
+          {"name": "Plastic", "quantity": 20},
+          {"name": "Houten Bak", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Mal voor Trigger",
+        "materials": [
+          {"name": "Plastic", "quantity": 20},
+          {"name": "Houten Bak", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Mal voor Loop",
+        "materials": [
+          {"name": "Plastic", "quantity": 20},
+          {"name": "Houten Bak", "quantity": 1}
+        ]
+      },
+      {
+        "name": "9mm Ammo box",
+        "materials": [
+          {"name": "9mm Hulzen", "quantity": 5},
+          {"name": "Buskruit", "quantity": 5},
+          {"name": "Karton", "quantity": 2}
+        ]
+      },
+      {
+        "name": "Mal voor Extended clip",
+        "materials": [
+          {"name": "Plastic", "quantity": 20},
+          {"name": "Houten Bak", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Mal voor Silencer",
+        "materials": [
+          {"name": "Plastic", "quantity": 20},
+          {"name": "Houten Bak", "quantity": 1}
+        ]
+      },
+      {
+        "name": "SNS Pistool",
+        "materials": [
+          {"name": "MetaalSchroot", "quantity": 10},
+          {"name": "SNS Trigger", "quantity": 1},
+          {"name": "SNS Loop", "quantity": 1},
+          {"name": "SNS Clip", "quantity": 1},
+          {"name": "Aluminium", "quantity": 5}
+        ]
+      },
+      {
+        "name": "Mal voor Combat Loop",
+        "materials": [
+          {"name": "Plastic", "quantity": 20},
+          {"name": "Houten Bak", "quantity": 1}
+        ]
+      }
+  ]
