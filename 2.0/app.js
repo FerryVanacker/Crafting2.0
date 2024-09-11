@@ -97,9 +97,9 @@ document.addEventListener("DOMContentLoaded", async function() {
     const spans = resultsContainer.querySelectorAll('span');
     spans.forEach(span => {
       if (body.classList.contains("dark-mode")) {
-        span.style.color = "#ffffff";
+        span.style.color = "#fff";
       } else {
-        span.style.color = "#000000";
+        span.style.color = "#fff";
       }
     });
   }
