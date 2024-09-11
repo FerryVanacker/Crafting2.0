@@ -1,10 +1,26 @@
+:root {
+  --font-family: Arial, sans-serif;
+  --background-color: #1a1a1a;
+  --text-color: #fff;
+  --primary-color: #4CAF50;
+  --secondary-background-color: #2a2a2a;
+  --border-color: #333;
+  --border-color-light: #ccc;
+  --input-background: #444;
+  --input-text-color: #fff;
+  --input-padding: 10px;
+  --box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  --border-radius: 5px;
+  --container-padding: 20px;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #1a1a1a; /* Dark background */
-  color: #fff; /* White text */
-  padding: 0; /* Remove padding to avoid extra spacing */
-  margin: 0; /* Remove default margin */
-  height: 100vh; /* Ensure full viewport height */
+  font-family: var(--font-family);
+  background-color: var(--background-color); 
+  color: var(--text-color); 
+  padding: 0; 
+  margin: 0; 
+  height: 100vh; 
 }
 
 .container {
@@ -12,7 +28,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: var(--container-padding);
   box-sizing: border-box;
 }
 
@@ -22,10 +38,10 @@ body {
 }
 
 .item-list li {
-  width: calc(15% - 30px); /* 20% of the container width, minus 5px for margin */
-  margin: 5px; /* Reduce the margin to 0.5px */
+  width: calc(15% - 30px); 
+  margin: 5px; 
   list-style: none;
-  text-align: center; /* Add this line to center the text */
+  text-align: center; 
 }
 
 .li {
@@ -37,7 +53,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 10px; /* Reduce the gap to 2px */
+  gap: 10px;
 }
 
 .results {
@@ -46,41 +62,39 @@ body {
   justify-content: center;
   align-items: end;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 1px solid var(--border-color-light);
+  border-radius: var(--border-radius);
   width: calc(100% - 20px);
   margin: 10px;
   box-sizing: border-box;
-  position: relative; /* Add this line */
+  position: relative;
 }
 
 .results span {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
-  color: #fff !important; /* White text */
-  margin-top: 20px; /* Move the text down by 5px */
+  color: var(--text-color) !important;
+  margin-top: 20px;
 }
 
 .custom-select {
   appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   padding: 0.5rem 1rem;
-  border: 1px solid #555;
+  border: 1px solid var(--border-color);
   border-radius: 0.5rem;
-  background-color: #333;
+  background-color: var(--secondary-background-color);
   font-size: 1rem;
   width: 100%;
-  max-width: 300px; /* Adjust as needed */
-  color: #ccc; /* Text color */
+  max-width: 300px;
+  color: #ccc;
   box-sizing: border-box;
 }
 
 .custom-select option {
   padding: 0.5rem 1rem;
-  background-color: #2a2a2a;
-  color: #ffffff;
+  background-color: var(--secondary-background-color);
+  color: var(--text-color);
 }
 
 .calculator-box {
@@ -88,32 +102,32 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #2a2a2a; /* Darker background */
+  background-color: var(--secondary-background-color);
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  box-shadow: var(--box-shadow);
 }
 
 .crafting-calculator {
-  background-color: #2a2a2a; /* Darker background */
+  background-color: var(--secondary-background-color);
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Soft shadow */
-  transition: opacity 0.5s ease; /* Add transition for opacity */
-  max-width: 400px; /* Limit max width to prevent stretching */
-  width: 100%; /* Ensure it takes full width of container */
-  text-align: center; /* Center text inside the box */
+  box-shadow: var(--box-shadow);
+  transition: opacity 0.5s ease;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
   box-sizing: border-box;
 }
 
 .crafting-calculator h1 {
-  color: #fff; /* White text */
+  color: var(--text-color);
   font-size: 24px;
   margin-bottom: 20px;
 }
 
 .crafting-calculator label {
-  color: #ccc; /* Light gray text */
+  color: #ccc;
   display: block;
   margin-bottom: 10px;
 }
@@ -121,20 +135,20 @@ body {
 .crafting-calculator input[type="text"],
 .crafting-calculator input[type="number"] {
   width: calc(100% - 20px);
-  padding: 10px;
+  padding: var(--input-padding);
   margin-bottom: 20px;
-  border-radius: 5px;
-  border: 1px solid #333; /* Dark border */
-  background-color: #444; /* Dark background for input */
-  color: #fff; /* White text */
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  background-color: var(--input-background);
+  color: var(--input-text-color);
   box-sizing: border-box;
 }
 
 .crafting-calculator button {
-  background-color: #4CAF50; /* Green button */
-  color: #fff; /* White text */
+  background-color: var(--primary-color);
+  color: var(--text-color);
   padding: 12px;
   border: none;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   cursor: pointer;
 }
