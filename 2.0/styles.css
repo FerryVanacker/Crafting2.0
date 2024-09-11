@@ -33,19 +33,19 @@ body {
 }
 
 .item-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid; /* Gebruik een grid layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 kolommen */
+  gap: 10px; /* Afstand tussen de items */
+  justify-items: start; /* Uitlijning aan de linkerkant */
 }
 
 .item-list li {
-  width: calc(15% - 30px); 
-  margin: 5px; 
   list-style: none;
-  text-align: center; 
+  text-align: left;
 }
 
-.li {
-  list-style-type: none;
+.item-list input[type="radio"] {
+  margin-right: 5px;
 }
 
 .results-container {
@@ -78,25 +78,6 @@ body {
   margin-top: 20px;
 }
 
-.custom-select {
-  appearance: none;
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--border-color);
-  border-radius: 0.5rem;
-  background-color: var(--secondary-background-color);
-  font-size: 1rem;
-  width: 100%;
-  max-width: 300px;
-  color: #ccc;
-  box-sizing: border-box;
-}
-
-.custom-select option {
-  padding: 0.5rem 1rem;
-  background-color: var(--secondary-background-color);
-  color: var(--text-color);
-}
-
 .calculator-box {
   position: absolute;
   top: 50%;
@@ -106,49 +87,4 @@ body {
   padding: 40px;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
-}
-
-.crafting-calculator {
-  background-color: var(--secondary-background-color);
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: var(--box-shadow);
-  transition: opacity 0.5s ease;
-  max-width: 400px;
-  width: 100%;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-.crafting-calculator h1 {
-  color: var(--text-color);
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.crafting-calculator label {
-  color: #ccc;
-  display: block;
-  margin-bottom: 10px;
-}
-
-.crafting-calculator input[type="text"],
-.crafting-calculator input[type="number"] {
-  width: calc(100% - 20px);
-  padding: var(--input-padding);
-  margin-bottom: 20px;
-  border-radius: var(--border-radius);
-  border: 1px solid var(--border-color);
-  background-color: var(--input-background);
-  color: var(--input-text-color);
-  box-sizing: border-box;
-}
-
-.crafting-calculator button {
-  background-color: var(--primary-color);
-  color: var(--text-color);
-  padding: 12px;
-  border: none;
-  border-radius: var(--border-radius);
-  cursor: pointer;
 }
